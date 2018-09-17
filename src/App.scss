@@ -1,0 +1,45 @@
+$darkblue: #3a2a9e;
+$greyblue: #39364e;
+$tan: #fef2cf;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2em 0;
+  background: $darkblue;
+  color: $tan;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  margin: 0;
+  background: green;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  padding: 1.5em;
+  flex: 1;
+}
+
+footer {
+  padding: 2em 1em;
+  background: $greyblue;
+  color: $tan;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
