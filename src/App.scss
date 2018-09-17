@@ -1,6 +1,7 @@
 $darkblue: #3a2a9e;
 $greyblue: #39364e;
 $tan: #fef2cf;
+$lightpurple: #db6bf2;
 
 body {
   margin: 0;
@@ -21,11 +22,22 @@ ul {
   align-items: center;
   width: 30%;
   margin: 0;
-  background: green;
+  // background: green;
 }
 
 li {
   list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: $tan;
+  transition: all 250ms;
+
+  &:hover {
+    color: $lightpurple;
+  }
 }
 
 main {
@@ -52,8 +64,11 @@ footer {
   width: 20%;
 
   img {
-    // width: 50%;
     width: 40px;
-    // margin-right: 10%;
+    border-radius: 50%;
+  }
+
+  span:hover {
+    color: $lightpurple;
   }
 }

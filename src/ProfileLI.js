@@ -5,9 +5,13 @@ class ProfileLI extends Component {
     super(props)
   };
 
+  handleClick = () => {
+    console.log('yooo');
+  };
+
   render() {
     return (
-      <li className='profile-li'>
+      <li className='profile-li' onClick={this.handleClick}>
         <img src='imgs/BW_20180301_GA_Scott_Rosehart_24104.jpg' />
         <span>Scott</span>
       </li>
