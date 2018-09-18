@@ -64,8 +64,10 @@ footer {
   width: 20%;
 
   img {
+    position: relative;
     width: 40px;
     border-radius: 50%;
+    transition: all 500ms;
   }
 
   span:hover {

@@ -5,7 +5,7 @@ const Nav = props => {
   return (
     <nav>
       <ul>
-        <ProfileLI />
+        <ProfileLI changePage={props.changePage} />
         <li><a>Home</a></li>
         <li><a>Projects</a></li>
         <li><a>About</a></li>

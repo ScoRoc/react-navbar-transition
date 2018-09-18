@@ -4,7 +4,7 @@ import Nav from './Nav';
 const Header = props => {
   return (
     <header>
-      <Nav />
+      <Nav changePage={props.changePage} />
     </header>
   )
 };
